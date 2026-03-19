@@ -4,50 +4,50 @@ import { ChevronLeft, ChevronRight, Plus, ArrowRight, MessageSquare, GitBranch, 
 const carouselCards = [
   {
     id: 1,
-    category: "Запросы клиентов",
-    title: "Создавайте то, что нужно клиентам",
+    category: "Отзывы покупателей",
+    title: "Честные мнения реальных фотографов",
     icon: ArrowRight,
     mockup: "intercom",
   },
   {
     id: 2,
-    category: "Git-интеграция",
-    title: "Автоматизируйте PR и коммиты",
+    category: "Сравнение моделей",
+    title: "Найдите лучшую камеру для вас",
     icon: Plus,
     mockup: "github",
   },
   {
     id: 3,
-    category: "Orbit Mobile",
-    title: "Управляйте работой откуда угодно",
+    category: "Мобильный каталог",
+    title: "Покупайте с телефона в любом месте",
     icon: ArrowRight,
     mockup: "mobile",
   },
   {
     id: 4,
-    category: "Orbit Asks",
-    title: "Превращайте запросы в задачи",
+    category: "Поддержка 24/7",
+    title: "Ответим на любой вопрос быстро",
     icon: ArrowRight,
     mockup: "asks",
   },
   {
     id: 5,
-    category: "Интеграции Orbit",
-    title: "100+ способов расширить возможности",
+    category: "Аксессуары",
+    title: "500+ товаров для вашей камеры",
     icon: ArrowRight,
     mockup: "integrations",
   },
   {
     id: 6,
-    category: "Интеграция с Figma",
-    title: "Связь между разработкой и дизайном",
+    category: "Фотошколы и курсы",
+    title: "Учитесь снимать у профессионалов",
     icon: ArrowRight,
     mockup: "figma",
   },
   {
     id: 7,
-    category: "Для разработчиков",
-    title: "Создавайте плагины через Orbit API",
+    category: "Для студий",
+    title: "Корпоративные поставки и рассрочка",
     icon: ArrowRight,
     mockup: "api",
   },
@@ -58,35 +58,35 @@ function IntercomMockup() {
     <div className="flex flex-col gap-3 p-4">
       <div className="flex items-center gap-2 text-xs text-zinc-400">
         <MessageSquare className="w-3.5 h-3.5" />
-        <span>Intercom</span>
+        <span>Отзывы</span>
         <span className="text-zinc-600">·</span>
-        <span className="text-zinc-500">sarah@example.com</span>
+        <span className="text-zinc-500">alex_photo@mail.ru</span>
       </div>
       <p className="text-sm text-zinc-300">
-        Нужна разбивка затрат <span className="text-zinc-500">по...</span>
+        Отличная камера, всем советую <span className="text-zinc-500">...</span>
       </p>
 
       <div className="mt-2 flex items-center gap-2 bg-zinc-800/50 rounded-lg px-3 py-2">
         <div className="w-5 h-5 bg-zinc-700 rounded flex items-center justify-center">
-          <span className="text-[10px] text-zinc-400">A</span>
+          <span className="text-[10px] text-zinc-400">★</span>
         </div>
-        <span className="text-sm text-zinc-300">ACME</span>
-        <span className="text-xs text-zinc-500">Новый запрос</span>
+        <span className="text-sm text-zinc-300">Sony A7 IV</span>
+        <span className="text-xs text-zinc-500">5 звёзд</span>
       </div>
 
       <div className="mt-1 flex items-center gap-2 bg-zinc-800/30 rounded-lg px-3 py-2">
         <div className="w-5 h-5 bg-yellow-500/20 rounded flex items-center justify-center">
           <span className="text-[10px] text-yellow-500">◆</span>
         </div>
-        <span className="text-sm text-zinc-400">Мультиоблачные</span>
-        <span className="text-xs text-zinc-500">затраты</span>
+        <span className="text-sm text-zinc-400">Качество сборки</span>
+        <span className="text-xs text-zinc-500">10/10</span>
       </div>
 
       <div className="mt-1 flex items-center gap-2 px-3 py-2">
         <div className="w-4 h-4 rounded-full border border-zinc-600" />
-        <span className="text-sm text-zinc-500">Планирование</span>
+        <span className="text-sm text-zinc-500">Verified покупатель</span>
         <div className="ml-2 flex items-center gap-1 text-xs text-zinc-600">
-          <span>Q4 2025</span>
+          <span>Март 2026</span>
         </div>
       </div>
     </div>
@@ -243,22 +243,21 @@ export function WorkflowsSection() {
             {/* Orange indicator */}
             <div className="flex items-center gap-2 mb-6">
               <div className="w-2 h-2 rounded-full bg-orange-500" />
-              <span className="text-sm text-zinc-400">Процессы и интеграции</span>
+              <span className="text-sm text-zinc-400">Сервис и возможности</span>
               <ChevronRight className="w-4 h-4 text-zinc-600" />
             </div>
 
             {/* Heading */}
             <h2 className="text-4xl md:text-5xl font-medium text-white leading-[1.1]">
-              Работайте слаженно
+              Всё что нужно
               <br />
-              между инструментами
+              для съёмки
             </h2>
           </div>
 
           {/* Description */}
           <p className="text-zinc-400 lg:max-w-sm lg:pt-12">
-            Расширьте возможности Orbit с помощью интеграций, которые синхронизируют всю команду и держат фокус на
-            главном.
+            Вся экосистема для фотографа: от выбора камеры до обучения и постпродакшена.
           </p>
         </div>
 
